@@ -4,6 +4,15 @@ html, body {
   color: blue;
 }
 
+h1{
+  color: black;
+  -webkit-text-stroke:  1px hotpink;
+}
+
+text{
+  color: white;
+}
+
 canvas {
   display: block;
 }
