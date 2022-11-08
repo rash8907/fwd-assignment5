@@ -11,7 +11,7 @@ let r, g, b, c, m;
 
 
 function setup() {
-  createCanvas(1400, 700);
+  createCanvas(1500, 800);
   //background(102);
   background('#black');
   describe('canvas with pink background');
@@ -34,8 +34,9 @@ function draw() {
   fill(r, g, b, 127);
   ellipse(360, 200, 200, 200);
   textSize(30);
-  textWrap(WORD);
-  text('PRESS ME', 280, 60, 200);
+  //textWrap(WORD);
+  text('PRESS ME ', 280, 60, 200);
+
   
   ellipse(300, 500, 500, 500);
   ellipse(500, 500, 300, 300);
